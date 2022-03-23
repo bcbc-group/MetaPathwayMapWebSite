@@ -1,0 +1,12 @@
+python metaPathwayMap/scripts/metaPathwayMap.py -pwy static/databases/PlantCyc/pathways.dat.cid.all -canopus static/tmp/anthocyanin_canopus_summary_filtered.tsv -jaccard 0.7 -log static/tmp/log2.out
+~~~~
+# of lines in CANOPUS file: 17
+# of lines with >=3 CANOPUS levels: 17
+# of compound match lines in OUT: 2788
+# of CANOPUS compounds with matching pathway annotations: 17
+# of CANOPUS compounds with high-conf pathway annotations (>threshold): 16
+~~~~
+Easiest, most relevant output file to look at --> static/tmp/anthocyanin_canopus_summary_filtered.tsv.chemont.top.format.abbr.tab
+Easiest, most relevant output file to look at (copy of above file) --> static/tmp/anthocyanin_canopus_summary_filtered.tsv.metaPathwayMap
+Other files with excruciating details --> static/tmp/anthocyanin_canopus_summary_filtered.tsv.*
+Done!

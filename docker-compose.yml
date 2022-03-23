@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    python:
+      platform: linux/amd64
+      image: metapathwaymap:v0.2
+      build:
+        context: .
+        dockerfile: docker/python/Dockerfile
+      volumes:
+            - ./metapathwaymapSite:/metapathwaymapSite
+      ports:
+            - 8080:8080

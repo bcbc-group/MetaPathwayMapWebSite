@@ -1,0 +1,2 @@
+#python metaPathwayMap/scripts/metaPathwayMap.py -pwy static/databases/PlantCyc/pathways.dat.cid.all -canopus static/tmp/massbank_compound_canopus.tab -jaccard 0.7 -log static/tmp/log2.out
+#ExptID	Expt_Formula	Adduct	MetaboliteMatch	Jaccard	MetabolitesPathway	Network_Component	CANOPUS_mainPreds	CANOPUS_allPreds	ChemOnt_dbStruc
